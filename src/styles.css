@@ -1,0 +1,10 @@
+.header-shadow{
+  z-index:900 !important;
+}
+.app-main__outer{
+  padding-left: 380px !important;
+  width: 1500px !important;
+}
+.logo-src{
+  background: url(https://aerodyne.group/images/pasted-image-67-3.png) !important;
+}

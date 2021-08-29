@@ -1,0 +1,32 @@
+{
+  "restaurants": [
+    {
+      "restaurants": "Mcdonals",
+      "latitude": 3.140853,
+      "longitude": 902505151515,
+      "image": "https://www.mcdelivery.com.my/my/static/1628699133731/assets/60/img/mcdelivery_logo_ms.jpg",
+      "id": 3
+    },
+    {
+      "restaurants": "Tea Live",
+      "latitude": 3.106845,
+      "longitude": 101.72592,
+      "image": "https://www.tealive.com.my/assets/imgs/logo.png",
+      "id": 4
+    },
+    {
+      "restaurants": "Restaurant Kak Sue",
+      "latitude": "5° 22' 59.99\" N",
+      "longitude": "100° 24' 59.99\" E",
+      "image": "https://latitude.to/img/flags/my.png",
+      "id": 5
+    },
+    {
+      "restaurants": "4fingers",
+      "latitude": "3.106845",
+      "longitude": "3.140853",
+      "image": "http://www.4fingers.com.my/Images/Logo.jpg",
+      "id": 6
+    }
+  ]
+}

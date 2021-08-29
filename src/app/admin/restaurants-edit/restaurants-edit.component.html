@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+<div class="app-main__outer">
+    <div class="app-main__inner">
+        <div class="app-page-title">
+            <div class="page-title-wrapper">
+                <div class="page-title-heading">
+                    <div class="page-title-icon">
+                        <i class="pe-7s-car icon-gradient bg-mean-fruit">
+                        </i>
+                    </div>
+                    <div>Edit Restaurant
+                        <div class="page-title-subheading">This is an example dashboard created using build-in elements and components.
+                        </div>
+                    </div>
+                </div>
+                  </div>
+        </div>           
+       
+      
+     
+        <div class="row">
+            <div class="col-md-12">
+                <form [formGroup]="form" (submit)="submit()">
+                        <div class="main-card mb-3 card">
+                            <div class="card-header">Add Restaurants</div>
+                            <div class="padding-10">
+                        
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Restaurant Name:</label>
+                                    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder=" Restaurant" name="restaurants" formControlName="restaurants">
+
+                                    <small id="emailHelp" class="form-text text-muted">Put your Restaurant Name</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Longitude:</label>
+                                    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder=" latitude" name="longitude" formControlName="longitude">
+                                    <small id="emailHelp" class="form-text text-muted">Put your Latitude</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Latitude:</label>
+                                    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder=" Longitude" name="latitude" formControlName="latitude">
+                                    <small id="emailHelp" class="form-text text-muted">Put your Longitude</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Image:</label>
+                                    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder=" Image" name="image" formControlName="image">
+                                    <small id="emailHelp" class="form-text text-muted">Put your Image Link</small>
+                                </div>
+                            </div>
+                   
+                
+                            <div class="d-block text-center card-footer">
+                                
+                                <button class=" btn btn-success">Save</button>
+                            </div>
+            
+                        </div>
+             
+                </form>
+                     </div>
+                 </div>
+     
+             </div>
+    
+   
+
+
+
+
+
+
+
+
+
+
+
